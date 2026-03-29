@@ -4,3 +4,9 @@ h1{
     font-style:italic;
     font-size: 7rem;
 }
+
+h2{
+    font-family: "Playfair Diplay", serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
