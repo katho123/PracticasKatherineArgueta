@@ -1,243 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomioka´s web sitie</title>
+    <title>Tomioka´s Web Site</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <!-- FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-     
-    <header> 
-        <h1>
-            GIYU TOMIOKA 
-        </h1> 
-        <nav> 
-                <div class="bottom">
-                       <li><a href="#s1" >Historia</a></li> 
-                </div>
-                
-                <div class="bottom"> 
-                     <li><a href="#s2" >Información</a></li>
-                </div>
-                
-              <div class="bottom">
-                 <li><a href="#s3" >Ficha técnica</a></li> 
-              </div>
 
-                <div class="bottom">
-                    <li><a href="#s4" >Registro de fans</a></li>
-                </div>
-                
-                <div class="bottom">
-                    <li><a href="#s5" >Galería</a></li>  
-                </div>
-        </nav> 
-    </header> 
- 
-    <main> 
-        <section> 
-            <h2 id="s1">Historia</h2> 
- 
-            <div class="card">
-            <img src="img/tomioka vv.jpg" alt="Tomiokaaa" width="250" height="260">
-            </div>
+    <!-- ========================
+         HEADER + MENÚ (FIXED)
+         ======================== -->
+    <header>
+        <h1>GIYU TOMIOKA</h1>
+
+        <nav class="menu">
+            <a href="#s1">Historia</a>
+            <a href="#s2">Información</a>
+            <a href="#s3">Ficha técnica</a>
+            <a href="#s4">Registro de fans</a>
+            <a href="#s5">Galería</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========================
+             HISTORIA (RELATIVE)
+             ======================== -->
+        <section id="s1" class="seccion">
+            <span class="etiqueta">Pilar del Agua</span>
+
+            <h2>Historia</h2>
+
+            <img src="img/tomioka vv.jpg" alt="Tomioka" class="img-principal">
 
             <p class="cita">
-            Giyu es el Pilar del Agua (Water Hashira) dentro del Cuerpo de Exterminio de Demonios. <br>
-             Desde pequeño sufrió mucho: cuando era niño, un demonio atacó y su hermana mayor se sacrificó <br>
-             para salvarlo. Ese hecho marcó profundamente su vida. Más adelante entrenó junto a Sabito, quien <br>
-             murió durante la Selección Final para convertirse en cazador de demonios. Giyu sobrevivió gracias <br>
-             a él, y por eso siempre sintió culpa, pensando que no merecía ser un Pilar. Es una persona <br>
-            seria, callada y muy reservada, pero en realidad tiene un gran corazón. Fue quien perdonó la vida <br>
-            de Nezuko y confió en que Tanjiro podría protegerla, demostrando que no todos los demonios son iguales. <br>
-            A lo largo de la historia, Giyu lucha contra demonios poderosos usando la Respiración del Agua y demuestra <br>
-            ser uno de los espadachines más fuertes.</p>
+                Giyu es el Pilar del Agua (Water Hashira) dentro del Cuerpo de Exterminio de Demonios.
+                Desde pequeño sufrió mucho, su hermana se sacrificó para salvarlo.
+                Entrenó junto a Sabito, quien murió durante la Selección Final.
+                Giyu sobrevivió gracias a él y siempre sintió culpa.
+                Aunque es serio y reservado, posee un gran corazón.
+            </p>
+        </section>
 
-        </section> 
-         
-        <section> 
-            <h2 id="s2">Información</h2> 
+        <!-- ========================
+             INFORMACIÓN (RELATIVE)
+             ======================== -->
+        <section id="s2" class="seccion">
+            <span class="etiqueta">Información</span>
 
-            <ul>
-                <h1>Habilidades y Características</h1>
+            <h2>Habilidades y Características</h2>
 
-                <div class="caja">
-    <h2>🌊 Habilidades</h2>
-    <ul>
-        <li>
-            <strong>Respiración del Agua (Mizu no Kokyū):</strong>
-            Domina esta técnica a nivel de Pilar. Sus ataques imitan el flujo del agua,
-            combinando velocidad, precisión y fluidez.
-        </li>
-
-        <li>
-            <strong>Undécima forma: Calma (Dead Calm):</strong>
-            Técnica creada por él mismo. Le permite bloquear y neutralizar ataques
-            con movimientos casi imperceptibles.
-        </li>
-
-        <li>
-            <strong>Gran velocidad y reflejos:</strong>
-            Puede reaccionar rápidamente ante demonios de alto nivel.
-        </li>
-
-        <li>
-            <strong>Fuerza y resistencia elevadas:</strong>
-            Como Hashira, su entrenamiento físico es extremo.
-        </li>
-
-        <li>
-            <strong>Marca del Cazador de Demonios:</strong>
-            Aumenta temporalmente su poder, velocidad y resistencia.
-        </li>
-    </ul>
-    </div>
-
-     <div class="caja">
-    <h2>🧊 Características especiales</h2>
-    <ul>
-        <li>Personalidad seria y reservada.</li>
-        <li>Muy leal y protector, aunque no lo demuestra con palabras.</li>
-        <li>Gran sentido del deber.</li>
-        <li>Alta inteligencia en combate.</li>
-    </ul>
-            </ul>
+            <div class="caja">
+                <h3>🌊 Habilidades</h3>
+                <ul>
+                    <li><strong>Respiración del Agua:</strong> Dominio total del estilo.</li>
+                    <li><strong>Undécima forma – Calma:</strong> Técnica creada por él.</li>
+                    <li><strong>Velocidad y reflejos:</strong> Nivel Hashira.</li>
+                    <li><strong>Marca del Cazador:</strong> Aumento de poder.</li>
+                </ul>
             </div>
 
-        </section>       
-                 
-        <section> 
-            <h2 id="s3">Ficha técnica</h>
+            <div class="caja">
+                <h3>🧊 Características</h3>
+                <ul>
+                    <li>Personalidad seria y reservada.</li>
+                    <li>Gran sentido del deber.</li>
+                    <li>Inteligente en combate.</li>
+                </ul>
+            </div>
+        </section>
 
-    <h1>Ficha de Giyu Tomioka</h1>
+        <!-- ========================
+             FICHA TÉCNICA
+             ======================== -->
+        <section id="s3" class="seccion">
+            <span class="etiqueta">Ficha técnica</span>
 
-    <table class="ficha">
-        <tr>
-            <th>Categoría</th>
-            <th>Información</th>
-        </tr>
+            <h2>Ficha de Giyu Tomioka</h2>
 
-        <tr>
-            <td>Edad</td>
-            <td>19 años</td>
-        </tr>
+            <table class="ficha">
+                <tr>
+                    <th>Categoría</th>
+                    <th>Información</th>
+                </tr>
+                <tr><td>Edad</td><td>19 años</td></tr>
+                <tr><td>Estatura</td><td>1.76 m</td></tr>
+                <tr><td>Peso</td><td>69 kg</td></tr>
+                <tr><td>Primera aparición</td><td>Episodio 1</td></tr>
+                <tr>
+                    <td>Debilidades</td>
+                    <td>Reservado, culpa por Sabito</td>
+                </tr>
+                <tr>
+                    <td>Alias</td>
+                    <td>Pilar del Agua</td>
+                </tr>
+            </table>
+        </section>
 
-        <tr>
-            <td>Estatura</td>
-            <td>1.76 m</td>
-        </tr>
+        <!-- ========================
+             REGISTRO DE FANS
+             ======================== -->
+        <section id="s4" class="seccion">
+            <span class="etiqueta">Fans</span>
 
-        <tr>
-            <td>Peso</td>
-            <td>69 kg</td>
-        </tr>
+            <h2>Formulario de Fans</h2>
 
-        <tr>
-            <td>Primera aparición (Manga)</td>
-            <td>Capítulo 1 de Kimetsu no Yaiba</td>
-        </tr>
+            <div class="caja-formulario">
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text">
 
-        <tr>
-            <td>Primera aparición (Anime)</td>
-            <td>Episodio 1</td>
-        </tr>
+                    <label>Correo electrónico:</label>
+                    <input type="email">
 
-        <tr>
-            <td>Debilidades</td>
-            <td>
-                • Sentimientos de culpa e inseguridad por la muerte de Sabito.<br>
-                • Muy reservado.<br>
-                • Tiende a aislarse.
-            </td>
-        </tr>
+                    <label>Edad:</label>
+                    <input type="number">
 
-        <tr>
-            <td>Alias</td>
-            <td>
-                • Pilar del Agua (Water Hashira)<br>
-                • Tomioka
-            </td>
-        </tr>
+                    <label>Fecha de cumpleaños:</label>
+                    <input type="date">
 
-    </table>
+                    <button type="submit">¡Unirme al Cuerpo de Cazadores!</button>
+                </form>
+            </div>
+        </section>
 
+        <!-- ========================
+             GALERÍA
+             ======================== -->
+        <section id="s5" class="seccion">
+            <span class="etiqueta">Galería</span>
 
-        </section>     
-                 
-        <section> 
-            <h2 id="s4">Formulario de Fans</h2> 
-            
-            <form action="#" method="post">
+            <h2>Galería</h2>
 
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-
-        <label for="correo">Correo electrónico:</label><br>
-        <input type="email" id="correo" name="correo" required><br><br>
-
-         <label for="edad">Edad:</label> <br>
-        <input type="number" id="edad" name="edad">
-         
-        <label for="date">Fecha de cumpleaños</label>
-
-        <input type="submit" value="Unirme">
-
-    </form>
-        </section>     
-                 
-        <section> 
-            <h2 id="s5">Galería</h2>
-
-             <div class="container"> 
-             <div class="column">
-
-            <div class="tarjeta">
-            <img src="img/mmmtomiokaaa.jpg" alt="tomiokaaaaa" width="250" height="260">
+            <div class="galeria">
+                <img src="img/mmmtomiokaaa.jpg">
+                <img src="img/mi vvtomioka.jpg">
+                <img src="img/mmtomi.jpg">
+                <img src="img/tomiokasss.jpg">
+                <img src="img/tomiiokaaa.jpg">
+                <img src="img/toiokavvv.jpg">
             </div>
 
-            <div class="tarjeta">
-            <img src="img/mi vvtomioka.jpg" alt="tilin" width="250" height="260"> 
-            </div>
+            <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Giyu_Tomioka" target="_blank">
+                Sitio web oficial
+            </a>
+        </section>
 
-            <div class="tarjeta">
-            <img src="img/mmtomi.jpg" alt="pololo" width="250" height="260">
-            </div>
+    </main>
 
-            <div class="tarjeta">
-            <img src="img/tomiokasss.jpg" alt="wapo" width="250" height="260">
-            </div>
-
-             <div class="tarjeta">
-            <img src="img/tomiiokaaa.jpg" alt="tomiokaa"width="250" height="260">
-             </div>
-
-            <div class="tarjeta">
-            <img src="img/toiokavvv.jpg" alt="el amor de mi life" width="250" height="260"> 
-            </div>
-
-            <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Giyu_Tomioka" target="_self">Sitio web oficial.</a> <br>
-            
-        </section> 
-             
-    </main> 
-     
-    <footer> 
-        <p id="autor">Creado por Katherine Argueta</p> 
-        <p>© Todos los derechos reservados</p> 
-
-    <hr>
-    <p><strong>Fan Page de Giyu Tomioka</strong></p>
-    <p>Personaje del anime Kimetsu no Yaiba</p>
-    <p>Pilar del Agua (Water Hashira)</p>
-    <p> copy; 2026 Club de Fans de Giyu Tomioka. Página creada por Kat Argue.</p>
-</p>
-    </footer>  
+    <!-- ========================
+         FOOTER (FIXED)
+         ======================== -->
+    <footer class="footer">
+        <p>Creado por Katherine Argueta</p>
+        <p>© 2026 Club de Fans de Giyu Tomioka</p>
+    </footer>
 
 </body>
 </html>
