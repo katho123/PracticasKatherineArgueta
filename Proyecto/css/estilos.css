@@ -107,3 +107,30 @@ transition: 0.3s;
 .link:hover {
 background-color: #c0b73d;
 }
+
+.bottom{
+  border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: aquamarine;
+    background-color: skyblue;
+    color: cadetblue;
+
+    width: 20%;
+
+    margin: 35px auto 35px;
+
+    padding: 10px;
+
+    text-align: end;
+
+    box-sizing:  border-box;
+
+    display: inline-block;
+
+    justify-content: space-between;
+
+
+    }
+
