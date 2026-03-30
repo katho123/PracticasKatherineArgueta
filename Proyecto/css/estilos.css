@@ -29,11 +29,11 @@ p{
 
 .tarjeta{
     border-style:groove;
-    border-radius: 10px;
+    border-radius: 20px;
     border-color: rgb(255, 255, 255);
-    border-width: 4px;
+    border-width: 6px;
 
-    width: 22%;
+    width: 33%;
 
     margin: 35px auto 35px;
 
@@ -117,9 +117,10 @@ nav {
 .bottom a {
     color: white; /* Color del texto */
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 7px 5px;
     display: block;
-    font-weight: bold;
+    font-weight: 6px;
+    text-align: center;
 }
 
 .bottom:hover {
@@ -184,4 +185,23 @@ nav {
 .ficha th {
     background-color: rgb(52, 155, 129);
     color: white;
+}
+
+.caja{
+    border-style:groove;
+    border-radius: 30%;
+    border-color: rgb(255, 255, 255);
+    border-width: 6px;
+
+    width: 33%;
+
+    margin: 35px auto 35px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    box-sizing: content-box;
+
+    display: left;
 }
