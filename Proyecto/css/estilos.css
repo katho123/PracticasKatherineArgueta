@@ -1,0 +1,109 @@
+h1{
+    font-family: "Carter One", serif;
+    font-weight: 600;
+    font-style:italic;
+    font-size: 7rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2{
+    font-family: "Carter One", serif;
+    font-weight: 360;
+    font-size: 2rem;
+    text-align: center;
+}
+
+body{
+   background-image: url(../img/fondo\ x2.png);
+   background-size: 2000cm;
+   background-repeat: no-repeat;
+}
+
+p{
+    margin-right: 500px;
+    font-size: 20px;
+    background-color: rgba(185, 255, 119, 0.5);
+}
+
+.tarjeta{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+
+    width: 20%;
+
+    margin: 35px auto 35px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    display: inline-block;
+}
+
+.cita{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+
+    width: 40%;
+
+    margin: 35px auto 35px;
+
+    padding: 10px;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    display:block
+}
+
+/* =========================
+HEADER Y NAVEGACIÓN
+========================= */
+header {
+background-color: #2b270b81;
+color: #fff;
+padding: 10px;
+position: sticky; /* Posicionamiento sticky */
+top: 0;
+z-index: 1000; /*Este elemento estará muy por encima de cualquier otro*/
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly; 
+}
+
+.titulo {
+font-family: 'Special+Elite', cursive; /* Fuente tipo máquina de escribir */
+letter-spacing: 5px;
+text-align: center;
+margin-bottom: 10px;
+max-height:max-content;
+font-size: 1.4rem;
+}
+/* Flexbox para menú */
+.menu {
+display: flex;
+justify-content: center;
+list-style: none;
+gap: 20px;
+font-size: 0.9rem;
+}
+
+.link {
+text-decoration: none;
+color: #fff;
+padding: 8px 15px;
+border-radius: 5px;
+transition: 0.3s;
+}
+.link:hover {
+background-color: #c0b73d;
+}
