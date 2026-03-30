@@ -1,14 +1,14 @@
 .tarjeta{
     border-style: solid;
     border-radius: 10px;
-    border-color: goldenrod;
+    border-color: blueviolet;
     border-width: 2px;
 
     width: 50%;
 
-    margin: 25px auto 25px;
+    margin: 15px auto 15px;
 
-    padding: 10px;
+    padding: 30px;
 
     text-align: center;
 
@@ -16,5 +16,6 @@
 }
 
 img{
-    width: 55%;
+    width: 50%;
+    height: 50%;
 }

@@ -1,10 +1,11 @@
+
 .tarjeta{
     border-style: solid;
     border-radius: 10px;
     border-color: goldenrod;
     border-width: 2px;
 
-    width: 50%;
+    width: 16%;
 
     margin: 25px auto 25px;
 
@@ -13,8 +14,11 @@
     text-align: center;
 
     box-sizing: border-box;
+
+    display: inline-block;
 }
 
 img{
-    width: 55%;
+    width: 75%;
+    height: 200px;
 }
