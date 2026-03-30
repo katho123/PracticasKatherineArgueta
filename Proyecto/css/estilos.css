@@ -5,6 +5,7 @@ h1 {
     font-size: 2.5rem; /* Antes era 7rem, lo cual era muy alto */
     color: rgb(255, 255, 255);
     margin: 0; /* Quitamos márgenes para que no empuje el header */
+    text-align: center;
 }
 
 h2{
@@ -62,6 +63,13 @@ p{
     box-sizing: border-box;
 
     display:block
+
+}
+
+  .card{
+  float: none;
+  width: 200px;
+  height: 200px;  
 }
 
 /* =========================
@@ -148,21 +156,32 @@ nav {
     justify-content: space-between;
     }
 
-.ficha{
+.ficha {
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(52, 155, 129);
-    border-width: 2px;
-    background-color: wheat;
+    border-color: rgb(52, 155, 129); /* El color verde que pediste */
+    border-width: 3px;
+    background-color: wheat; /* El fondo color trigo */
 
     width: 70%;
-
-    margin: 30px auto 30px;
-
+    margin: 30px auto; /* El 'auto' en los lados centra la tabla horizontalmente */
+    
     padding: 10px;
-
     text-align: left;
-
     box-sizing: border-box;
+    
+    /* Para que los bordes internos se vean bien con el redondeado */
+    border-collapse: separate; 
+    border-spacing: 0;
+    overflow: hidden;
+}
 
+.ficha th, .ficha td {
+    border: 1px solid rgba(52, 155, 129, 0.3);
+    padding: 10px;
+}
+
+.ficha th {
+    background-color: rgb(52, 155, 129);
+    color: white;
 }
