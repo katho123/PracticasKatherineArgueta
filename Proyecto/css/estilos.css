@@ -1,10 +1,10 @@
-h1{
+h1 {
     font-family: "Carter One", serif;
     font-weight: 600;
-    font-style:italic;
-    font-size: 7rem;
+    font-style: italic;
+    font-size: 2.5rem; /* Antes era 7rem, lo cual era muy alto */
     color: rgb(255, 255, 255);
-    text-align: center;
+    margin: 0; /* Quitamos márgenes para que no empuje el header */
 }
 
 h2{
@@ -27,10 +27,10 @@ p{
 }
 
 .tarjeta{
-    border-style: solid;
+    border-style:groove;
     border-radius: 10px;
     border-color: rgb(255, 255, 255);
-    border-width: 2px;
+    border-width: 4px;
 
     width: 22%;
 
@@ -148,3 +148,21 @@ nav {
     justify-content: space-between;
     }
 
+.ficha{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(52, 155, 129);
+    border-width: 2px;
+    background-color: wheat;
+
+    width: 70%;
+
+    margin: 30px auto 30px;
+
+    padding: 10px;
+
+    text-align: left;
+
+    box-sizing: border-box;
+
+}
