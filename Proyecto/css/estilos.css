@@ -72,21 +72,7 @@ p{
   height: 200px;  
 }
 
-/* =========================
-HEADER Y NAVEGACIÓN CORREGIDO
-========================= */
-header {
-    background-color: #aa9c3481;
-    color: #fff;
-    padding: 10px;
-    position: sticky; /* Cambiado a fixed para que sea totalmente inmóvil */
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 
 main {
     margin-top: 180px; 
@@ -294,16 +280,15 @@ body {
     color: #000;
 }
 
-/* =========================
-   MENÚ SUPERIOR (FIXED)
-   ========================= */
+/* Flexbox para menú */
 .menu {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 20px;
-    font-size: 0.9rem;
+display: flex;
+justify-content: center;
+list-style: none;
+gap: 20px;
+font-size: 0.9rem;
 }
+
 /* =========================
    SECCIONES (RELATIVE)
    ========================= */
