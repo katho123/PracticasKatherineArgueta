@@ -76,17 +76,16 @@ p{
 HEADER Y NAVEGACIÓN CORREGIDO
 ========================= */
 header {
-    background-color: #2b270b81;
+    background-color: #aa9c3481;
     color: #fff;
     padding: 10px;
-    position: fixed; /* Cambiado a fixed para que sea totalmente inmóvil */
+    position: sticky; /* Cambiado a fixed para que sea totalmente inmóvil */
     top: 0;
-    left: 0;
-    width: 100%; /* Asegura que cubra todo el ancho */
     z-index: 1000;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 main {
@@ -97,10 +96,9 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 0px;
     flex-wrap: nowrap; /* Evita que Galería se baje a otra línea */
     list-style: none;
-    padding: 0;
 }
 
 .bottom {
@@ -287,20 +285,6 @@ justify-content: center
 }
 
 /* =========================
-FOOTER
-========================= */
-footer {
-text-align: center;
-padding: 10px;
-background-color: #000;
-color: white;
-margin-top: 50px;
-
-justify-content: center;
-}
-
-
-/* =========================
    ESTILOS GENERALES (STATIC)
    ========================= */
 body {
@@ -314,43 +298,16 @@ body {
    MENÚ SUPERIOR (FIXED)
    ========================= */
 .menu {
-    position: fixed;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
-    gap: 12px;
-    background-color: #8fd3f4;
-    padding: 10px 20px;
-    border-radius: 12px;
-    z-index: 1000;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 0.9rem;
 }
 
-.menu a {
-    text-decoration: none;
-    color: #000;
-    background-color: #b9ecf2;
-    padding: 8px 14px;
-    border-radius: 8px;
-    font-weight: bold;
-}
 
-.menu a:hover {
-    background-color: #6ecadd;
-}
-
-/* =========================
-   TÍTULO PRINCIPAL
-   ========================= */
-header {
-    margin-top: 100px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
+=======
+>>>>>>> 9ee1dc9620c40fc4ffdef0f724c368a947cc4ffb
 
 /* =========================
    SECCIONES (RELATIVE)
@@ -410,6 +367,15 @@ header h1 {
     box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
 
+.galeria img {
+object-fit: cover; /* overflow control */
+border-radius: 10px;
+transition: transform 0.3s;
+}
+.galeria img:hover {
+transform: scale(1.1);
+}
+
 /* =========================
    FORMULARIO
    ========================= */
@@ -456,14 +422,13 @@ button:hover {
 /* =========================
    FOOTER (FIXED)
    ========================= */
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin-top: 40px;
 }
+    
