@@ -415,9 +415,6 @@ button:hover {
     font-size: 20px;
 }
 
-/* =========================
-   FOOTER (FIXED)
-   ========================= */
 footer{
     display: flex;
     flex-direction: column;
